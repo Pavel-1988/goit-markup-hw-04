@@ -124,6 +124,8 @@ ul{
   color: #2196f3;
 }
 
+
+
 .hero {
   background-color: #2f303a;
   text-align: center;
@@ -306,11 +308,52 @@ ul{
   margin: 0;
 }
 
+.sm-flex{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  }
+
+.sm-icon{
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.custamer-cntr{
+Width: 170px;
+Height: 92px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 30px;
+cursor: pointer;
+fill: currentColor
+}
+
+.custamer-cntr:hover{
+  border:1px solid #2196f3;
+  fill: currentColor
+}
+
+.custamer-icon{
+Width: 106px;
+Height: 60px;
+}
+
+
 .section-ftr {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 
 .logo-word-ftr {
   color: #ffffff;
@@ -321,6 +364,8 @@ address {
 }
 
 .address-item{
+  display: flex;
+  flex-direction: column;
   padding-left: 0px;
   margin-top: 20px;
 }
@@ -354,6 +399,18 @@ address {
 .mail-tel-ftr:last-child{
   margin-bottom: 0px;
 }
+
+.join{
+color: #ffffff;
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+line-height: 1.17;
+letter-spacing: 0.03em;
+
+
+}
+
 
 .section-hdr{
 border-bottom: 1px solid #ECECEC;
