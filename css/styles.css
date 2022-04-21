@@ -308,19 +308,10 @@ ul{
   margin: 0;
 }
 
-.sm-flex{
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  }
 
-.sm-icon{
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
+
+.adress-join{
+  display: flex;
 }
 
 .custamer-cntr{
@@ -407,11 +398,36 @@ font-size: 14px;
 text-transform: uppercase;
 line-height: 1.17;
 letter-spacing: 0.03em;
+}
 
+.join-sm{
+  margin-left: 70px;
 
 }
 
+.sm-flex {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  margin-top: 10px;
 
+}
+
+.sm-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+ 
+
+}
+
+.sm-icon-link{
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  color: rgba(255, 255, 255, 0.6);
+}
 .section-hdr{
 border-bottom: 1px solid #ECECEC;
 }
@@ -453,6 +469,9 @@ margin-right: 8px;
 .list-button-name:hover {
   background-color: #2196f3;
   color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .list-button-name:focus {
@@ -470,6 +489,12 @@ margin-right: 8px;
 .projects-border{
     margin-left: 30px;
     margin-bottom: 30px;
+}
+
+.projects-border:hover{
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 img{
