@@ -308,14 +308,36 @@ ul{
   margin: 0;
 }
 
+.sm-icon-link{
+  width: 44px;
+  height: 44px;
+  
+}
 
+
+.sm-icon:hover{
+  background-color: #2196f3;
+
+}
+
+
+.sm-icon {
+  width: 20px;
+  height: 20px;
+  fill: #212121;
+  border-radius: 50%;
+
+}
 
 .custamer-cntr{
 Width: 170px;
 Height: 92px;
+margin-right: 30px;
 }
 
 .custamer-link{
+  Width: 170px;
+  Height: 92px;
 border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
@@ -328,7 +350,7 @@ margin-right: 30px;
 }
 
 .custamer-link:hover{
-color: #2196f3;
+fill: #2196f3;
 }
 
 .custamer-icon{
@@ -417,19 +439,8 @@ letter-spacing: 0.03em;
 
 }
 
-.sm-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
- 
-}
 
-.sm-icon-link{
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .section-hdr{
 border-bottom: 1px solid #ECECEC;
 }
