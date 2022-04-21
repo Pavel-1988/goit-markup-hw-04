@@ -310,13 +310,12 @@ ul{
 
 
 
-.adress-join{
-  display: flex;
-}
-
 .custamer-cntr{
 Width: 170px;
 Height: 92px;
+}
+
+.custamer-link{
 border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
@@ -324,16 +323,16 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-right: 30px;
-cursor: pointer;
-fill: currentColor
+
+
 }
 
-.custamer-cntr:hover{
-  border:1px solid #2196f3;
-  fill: currentColor
+.custamer-link:hover{
+color: #2196f3;
 }
 
 .custamer-icon{
+fill: #AFB1B8;
 Width: 106px;
 Height: 60px;
 }
@@ -345,6 +344,10 @@ Height: 60px;
   padding-bottom: 60px;
 }
 
+
+.footer-container{
+  display: flex;
+}
 
 .logo-word-ftr {
   color: #ffffff;
@@ -410,7 +413,7 @@ letter-spacing: 0.03em;
   margin: 0px;
   padding: 0px;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
 
 }
 
@@ -419,7 +422,6 @@ letter-spacing: 0.03em;
   height: 20px;
   margin-right: 10px;
  
-
 }
 
 .sm-icon-link{
