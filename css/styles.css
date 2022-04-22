@@ -403,6 +403,7 @@ Height: 60px;
 
 .footer-container{
   display: flex;
+  align-items: baseline;
 }
 
 .logo-word-ftr {
@@ -454,16 +455,16 @@ address {
 
 .join-sm{
   margin-left: 70px;
-}
-
-.join {
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  
 }
+
+
 
 .sm-flex-ftr {
   display: flex;
@@ -474,14 +475,6 @@ address {
   margin-top: 20px;
 }
  
-
-.sm-list-ftr{
-  margin-right: 10px;
-  border-radius: 50px;
-  box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.1);
- 
-}
 
 .ftr-sm-icon{
   fill: #FFFFFF;
@@ -586,7 +579,3 @@ img{
 
 }
 
-h1,h2,h3,p{
-  margin: 0;
-}
- 
