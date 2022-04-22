@@ -29,7 +29,6 @@ ul{
   align-items: center;
   padding-bottom: 25px;
 
- 
 }
 
 .nav-flex {
@@ -44,8 +43,6 @@ ul{
     margin-top: 32px;
     margin-right: 305px;
 }
-
-
 
 .mail-tel-flex{
       display: flex;
@@ -308,10 +305,26 @@ ul{
   margin: 0;
 }
 
+/**team social media**/
+
+.sm-flex {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
 .sm-list{
   margin-right: 10px ;
   border-radius: 50px;
-box-sizing: border-box;
+  box-sizing: border-box;
+background-color:rgba(255, 255, 255, 0.1);
+}
+
+.sm-list:hover {
+  background-color: #2196f3;
 }
 
 .sm-icon-link{
@@ -320,39 +333,36 @@ box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #AFB1B8;
-
+  
 }
 
 .sm-icon {
   fill: #AFB1B8;
-  
 }
 
-
 .sm-icon-link:hover .sm-icon {
-  background-color: #2196f3;
   fill: #ffffff;
 }
 
+/**ouer custamers**/
 
 .custamer-cntr{
-Width: 170px;
-Height: 92px;
-margin-right: 30px;
+  Width: 170px;
+  Height: 92px;
+  margin-right: 30px;
 }
 
 .custamer-link{
   Width: 170px;
   Height: 92px;
-border: 1px solid #AFB1B8;
-box-sizing: border-box;
-border-radius: 4px;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: 30px;
-color: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  color: #AFB1B8;
 
 }
 
@@ -363,24 +373,21 @@ Width: 106px;
 Height: 60px;
 }
 
-
 .custamer-link:hover{
   border: 1px solid #2196f3;
 }
-
 
 .custamer-link:hover .custamer-icon {
   fill: #2196f3;
 }
 
-
+/**footer**/
 
 .section-ftr {
-  background-color: #2f303a;
+  background-color: #55565E;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 
 .footer-container{
   display: flex;
@@ -431,30 +438,46 @@ address {
   margin-bottom: 0px;
 }
 
-.join{
-color: #ffffff;
-font-weight: 700;
-font-size: 14px;
-text-transform: uppercase;
-line-height: 1.17;
-letter-spacing: 0.03em;
-}
+/** join and social media**/
 
 .join-sm{
   margin-left: 70px;
-
 }
 
-.sm-flex {
+.join {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.sm-flex-ftr {
   display: flex;
   margin: 0px;
   padding: 0px;
+  justify-content:flex-start ;
   align-items: center;
   margin-top: 20px;
+}
+ 
 
+.sm-list-ftr{
+  margin-right: 10px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+ 
+}
+
+.ftr-sm-icon{
+  fill: #FFFFFF;
 }
 
 
+
+/** PORTFOLIO**/
 
 .section-hdr{
 border-bottom: 1px solid #ECECEC;
