@@ -17,38 +17,37 @@ body {
   
 }
 
-
 ul{
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+/**header**/
+
 .header-flex{
   display: flex;
   align-items: center;
   padding-bottom: 25px;
-
 }
 
 .nav-flex {
   display: flex;
   align-items: center;
- 
 }
 
 .nav-link-flex{
-    display: flex;
-    flex-direction: row;
-    margin-top: 32px;
-    margin-right: 305px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  margin-right: 305px;
 }
 
 .mail-tel-flex{
-      display: flex;
-      flex-direction: row;
-      margin-top: 32px;
-      align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  align-items: center;
 }
 
 .logo {
@@ -92,14 +91,15 @@ ul{
   width: 16px ;
   height: 12px ;
   margin-right: 10px;
-  cursor: pointer;
+  fill: #757575;
 }
 
 .smartphone{
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  cursor: pointer;
+  fill: #757575;
+
 }
 
 .mail-tel-link {
@@ -119,6 +119,14 @@ ul{
 .mail-tel-link :hover,
 .mail-tel-link:focus {
   color: #2196f3;
+}
+
+.nav-flex:hover .envelope,
+.nav-flex:focus .envelope,
+.nav-flex:hover .smartphone,
+.nav-flex:focus .smartphone{
+
+  fill: #2196f3;
 }
 
 
@@ -323,7 +331,8 @@ ul{
 background-color:rgba(255, 255, 255, 0.1);
 }
 
-.sm-list:hover {
+.sm-list:hover,
+.sm-list:focus {
   background-color: #2196f3;
 }
 
@@ -340,7 +349,8 @@ background-color:rgba(255, 255, 255, 0.1);
   fill: #AFB1B8;
 }
 
-.sm-icon-link:hover .sm-icon {
+.sm-icon-link:hover .sm-icon{
+ 
   fill: #ffffff;
 }
 
@@ -373,11 +383,13 @@ Width: 106px;
 Height: 60px;
 }
 
-.custamer-link:hover{
+.custamer-link:hover,
+.custamer-link:focus{
   border: 1px solid #2196f3;
 }
 
-.custamer-link:hover .custamer-icon {
+.custamer-link:hover .custamer-icon,
+.custamer-link:focus .custamer-icon{
   fill: #2196f3;
 }
 
