@@ -119,6 +119,8 @@ ul{
 .mail-tel-link :hover,
 .mail-tel-link:focus {
   color: #2196f3;
+  fill: #2196f3;
+  
 }
 
 .nav-flex:hover .envelope,
@@ -326,15 +328,14 @@ ul{
 
 .sm-list{
   margin-right: 10px ;
-  border-radius: 50px;
-  box-sizing: border-box;
-background-color:rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+      border-radius: 50px;
+      box-sizing: border-box;
+
 }
 
-.sm-list:hover,
-.sm-list:focus {
-  background-color: #2196f3;
-}
+
 
 .sm-icon-link{
   width: 44px;
@@ -342,15 +343,29 @@ background-color:rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+background-color:rgba(255, 255, 255, 0.1);
+background-color: tomato;
+  padding: auto;
+ 
   
 }
 
 .sm-icon {
   fill: #AFB1B8;
 }
+/**
+.sm-list:hover,
+.sm-list:focus {
+  background-color: #2196f3;
 
-.sm-icon-link:hover .sm-icon{
- 
+}
+**/
+
+.sm-icon-link:hover .sm-icon,
+.sm-icon-link:focus .sm-icon{
+background-color: #2196f3;
   fill: #ffffff;
 }
 
