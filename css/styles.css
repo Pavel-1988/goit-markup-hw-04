@@ -102,6 +102,10 @@ display: flex;
   letter-spacing: 0.02em;
 }
 
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+}
 .envelope {
   width: 16px;
   height: 12px;
@@ -114,11 +118,6 @@ display: flex;
   height: 16px;
   fill: currentColor;
   margin-right: 10px;
-}
-
-.contact.hover,
-.contact.focus{
-  color: #2196f3;
 }
 
 
@@ -504,7 +503,7 @@ address {
 
 /** PORTFOLIO**/
 
-.section-hdr{
+.border-hdr{
 border-bottom: 1px solid #ECECEC;
 }
 
